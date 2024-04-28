@@ -93,7 +93,7 @@ jobs:
 
     - name: Package Armvirt as OpenWrt
       if: (!cancelled())
-      uses: ophub/flippy-openwrt-actions@main
+      uses: wingonwu/flippy-openwrt-actions@main
       env:
         OPENWRT_ARMVIRT: https://github.com/ophub/amlogic-s9xxx-openwrt/releases/download/OpenWrt_official_save_2024.04/openwrt-armsr-armv8-generic-rootfs.tar.gz
         PACKAGE_SOC: l1pro
