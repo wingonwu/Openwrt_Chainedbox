@@ -95,7 +95,7 @@ jobs:
       if: (!cancelled())
       uses: ophub/flippy-openwrt-actions@main
       env:
-        OPENWRT_ARMVIRT: https://github.com/breakings/OpenWrt/releases/download/OpenWrt_Master/openwrt-armvirt-64-default-rootfs.tar.gz
+        OPENWRT_ARMVIRT: https://github.com/ophub/amlogic-s9xxx-openwrt/releases/download/OpenWrt_official_save_2024.04/openwrt-armsr-armv8-generic-rootfs.tar.gz
         PACKAGE_SOC: l1pro
         WHOAMI: breakings
         #KERNEL_REPO_URL: https://github.com/breakings/OpenWrt/tree/main/opt
