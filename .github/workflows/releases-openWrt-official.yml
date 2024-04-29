@@ -95,7 +95,7 @@ jobs:
       if: (!cancelled())
       uses: wingonwu/flippy-openwrt-actions@main
       env:
-        OPENWRT_ARMVIRT: https://github.com/wingonwu/Openwrt_Chainedbox/releases/download/OpenWrt-Official/openwrt-armsr-armv8-generic-rootfs.tar.gz
+        OPENWRT_ARMVIRT: https://github.com/ophub/amlogic-s9xxx-openwrt/releases/download/OpenWrt_official_*/openwrt-armsr-armv8-generic-rootfs.tar.gz
         PACKAGE_SOC: l1pro
         WHOAMI: breakings
         #KERNEL_REPO_URL: https://github.com/breakings/OpenWrt/tree/main/opt
