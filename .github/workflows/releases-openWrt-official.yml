@@ -95,7 +95,7 @@ jobs:
       if: (!cancelled())
       uses: wingonwu/flippy-openwrt-actions@main
       env:
-        OPENWRT_ARMVIRT: https://dl.openwrt.ai/releases/targets/armsr/armv8/openwrt-05.02.2024-armsr-armv8-box-rootfs.tar.gz
+        OPENWRT_ARMVIRT: https://dl.openwrt.ai/releases/targets/armsr/armv8/openwrt-06.24.2024-armsr-armv8-box-rootfs.tar.gz
         PACKAGE_SOC: l1pro
         WHOAMI: breakings
         #KERNEL_REPO_URL: https://github.com/breakings/OpenWrt/tree/main/opt
